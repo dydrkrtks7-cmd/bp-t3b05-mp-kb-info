@@ -3,292 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>마포 노래방 리얼 팩트체크 단골 리뷰 아카이브 | 마포 노래방 정보</title>
-  <meta name="description" content="마포 노래방의 진짜 실전 체험담과 검증된 후기 데이터 공유 리포트! 바가지 눈탱이를 사전에 예방하고 가성비 힐링을 보장받으세요.">
-  <meta name="keywords" content="마포 노래방 정보, 마포 노래방 후기, 노래방 가격비교, 단골리뷰">
-  <meta name="bpaas-design-system" content="editorial-apple">
-  <meta name="bpaas-design-theme" content="kr-forest-mint">
-  <link rel="canonical" href="https://t3b05-mp-kb-info.pages.dev/about.html">
-  <style>
-    
-    :root {
-      --bg-color: #142217;
-      --bg-card: #1c3322;
-      --accent: #10b981;
-      --text: #e2e8f0;
-      --text-muted: #94a3b8;
-      --font-stack: 'Pretendard', sans-serif;
-      --border: rgba(255, 255, 255, 0.08);
-    }
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text);
-      font-family: var(--font-stack);
-      line-height: 1.8;
-      letter-spacing: -0.01em;
-      padding: 0 20px;
-    }
-    .wrapper {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 30px;
-      margin-bottom: 50px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .brand {
-      font-size: 1.5rem;
-      font-weight: 900;
-      color: #fff;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      text-decoration: none;
-      transition: color 0.3s;
-    }
-    .brand:hover {
-      color: var(--accent);
-    }
-    nav {
-      display: flex;
-      gap: 24px;
-    }
-    nav a {
-      color: var(--text-muted);
-      text-decoration: none;
-      font-size: 0.95rem;
-      font-weight: 600;
-      transition: color 0.3s;
-    }
-    nav a:hover {
-      color: var(--accent);
-    }
-    main {
-      padding-bottom: 60px;
-    }
-    .badge {
-      display: inline-block;
-      padding: 6px 12px;
-      background: rgba(255,255,255,0.04);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: var(--accent);
-      margin-bottom: 24px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-    }
-    h1 {
-      font-size: 2.8rem;
-      font-weight: 900;
-      color: #fff;
-      line-height: 1.25;
-      margin-bottom: 32px;
-      letter-spacing: -0.02em;
-    }
-    .hero-container {
-      position: relative;
-      border-radius: 16px;
-      padding: 48px;
-      background: linear-gradient(135deg, var(--bg-card) 0%, rgba(255,255,255,0.01) 100%);
-      border: 1px solid var(--border);
-      margin-bottom: 48px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-      overflow: hidden;
-    }
-    .hero-container::before {
-      content: '';
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, transparent 70%);
-      pointer-events: none;
-    }
-    .desc-block {
-      font-size: 1.15rem;
-      color: var(--text);
-      margin-bottom: 32px;
-      font-weight: 400;
-      text-align: justify;
-    }
-    .desc-block p {
-      margin-bottom: 20px;
-    }
-    .phone-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      padding: 18px 36px;
-      background: var(--accent);
-      color: #fff;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 1.2rem;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-    .phone-badge:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-    }
-    .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 24px;
-      margin-top: 48px;
-    }
-    .card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      padding: 32px;
-      border-radius: 12px;
-      transition: border-color 0.3s, transform 0.3s;
-    }
-    .card:hover {
-      border-color: var(--accent);
-      transform: translateY(-4px);
-    }
-    .card h3 {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 12px;
-    }
-    .card p {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      line-height: 1.6;
-    }
-    .review-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 16px;
-      font-size: 0.85rem;
-      font-weight: 700;
-    }
-    .review-stars {
-      color: #fbbf24;
-      letter-spacing: 2px;
-    }
-    .review-nick {
-      color: #fff;
-    }
-    .review-date {
-      color: var(--text-muted);
-    }
-    footer {
-      border-top: 1px solid var(--border);
-      padding-top: 40px;
-      margin-top: 80px;
-      text-align: center;
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 12px;
-      font-weight: 600;
-    }
-    footer a:hover {
-      color: var(--accent);
-    }
-    .blog-link {
-      display: inline-block;
-      margin-top: 24px;
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 700;
-      border-bottom: 1px solid transparent;
-      transition: border-color 0.3s;
-    }
-    .blog-link:hover {
-      border-color: var(--accent);
-    }
-    @media(max-width: 768px) {
-      body { padding: 0 15px; }
-      .wrapper { padding: 40px 0; }
-      h1 { font-size: 2.0rem; }
-      .hero-container { padding: 24px; }
-      .phone-badge { width: 100%; justify-content: center; }
-    }
-  
-  </style>
+  <title>상수 노래방 추천 가이드 - 정보</title>
+  <meta name="description" content="상수 지역 노래방을 선택하는 핵심 기준과 각 업소의 특징을 비교 분석하는 가이드. 주변 접근성, 음향 상태, 가격대 등 실용적인 선택 정보를 제공합니다.">
+  <meta name="keywords" content="상수 노래방, 노래방 추천, 상수동 노래방, 노래방 선택 기준, 노래방 비교">
+  <link rel="canonical" href="https://sangsu-karaoke-note.go-apgujeong-nrb.xyz/info">
+  <meta property="og:title" content="상수 노래방 추천 가이드 - 정보">
+  <meta property="og:description" content="상수 지역 노래방을 선택하는 핵심 기준과 각 업소의 특징을 비교 분석하는 가이드. 주변 접근성, 음향 상태, 가격대 등 실용적인 선택 정보를 제공합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sangsu-karaoke-note.go-apgujeong-nrb.xyz/info">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <a href="index.html" class="brand">마포.노래방</a>
-      <nav>
-        <a href="index.html">홈</a>
-        <a href="about.html">소개</a>
-        
-      </nav>
-    </header>
-    <main>
-      <div class="badge">REAL UGC FEEDBACK CONSOLE</div>
-      <h1>로컬 팩트체크 리뷰</h1>
-      <div class="hero-container" style="margin-bottom:32px;">
-        <div class="desc-block">
-          <p>마포와 방화역 골목의 숨은 노래 고수 브로들을 위해 진짜 괜찮은 노래방 정보와 가성비 가격표를 1대1 정밀 비교해 둔 로컬 아카이브다 브로. 삐끼 장난질로 기분 젖지 않고, 쾌적하고 널찍한 위생 룸에서 최고의 사운드를 출력할 수 있는 핫스팟들만 모았다. 놀기 전에 무조건 형의 예약 다이얼 📞 010-6279-0862 로 통화 확인 완료해라. 마이크 살균도 철저하다 브로.</p><p>인생 보컬 찾고 간 브로들의 리얼 한줄평:
-- **마포가왕 (27, 대학생)**: '동아리 모임 후에 마포 노래방 010-6279-0862 로 예약 잡고 갔는데 무선 마이크 그립감이랑 에코 튜닝 지대했음.'
-- **방화단골 (32, 개인택시)**: '단골 대우 제대로 해주는 노래방 찾기 힘든데 형 추천대로 하니까 서비스 안주 거하게 퍼주심. 대뇌 도파민 지대로 돎.'
-- **안심노래 (29, 간호사)**: '가게 안이 완전 살균 소독 잘 돼있고 공기 청정기 빵빵해서 안심하고 부름. 바가지 요금 걱정 없어서 힐링함 브로.'</p><p>반주음과 보컬의 주파수 대역폭 밸런싱 세팅 및 룸 내부 공기 여과 위생 등급까지 올패스한 특급 정보망이다 브로!</p>
-        </div>
-      </div>
-      
-      <h2 style="font-size:1.8rem; font-weight:900; margin: 40px 0 24px 0; color:#fff;">단골 브로들의 실시간 라이브 한줄평</h2>
-      <div class="cards-grid" style="grid-template-columns: 1fr; gap: 20px;">
-        
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">독고다이마포 (2026-05-15)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>실장한테 전화로 견적 미리 조율하고 갔는데 주말인데도 추가 요금 마찰 전혀 없이 투명하게 깔끔히 계산 끝남. 오디오 에코 세팅 개쩜!</p>
-      </div>
-    
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">눈탱이방어벽 (2026-05-20)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>바이어 접대가 급하게 잡혀 걱정했는데 형이 알려준 핫라인 예약 덕분에 퀄리티 높은 안주 대접하고 완전 성공 버프 받았다 브로.</p>
-      </div>
-    
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">가성비킹 (2026-05-24)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>망설이다 010-6279-0862 로 미리 통화하고 단골 예약 넣고 갔는데 무상 과일 안주 서비스 대박 퍼줘서 친구들도 대만족 인정함!</p>
-      </div>
-    
-      </div>
-      
-      <div style="margin-top:48px; text-align:center;">
-        <a href="tel:010-6279-0862" class="phone-badge">📞 단골 예약 다이얼: 010-6279-0862</a>
-      </div>
-    </main>
-    <footer>
-      <p>&copy; 2026 마포 노래방 안심 가이드. All Rights Reserved.</p>
-      <p style="margin-top:12px;">
-        <a href="index.html">홈</a> | 
-        <a href="about.html">소개</a> | 
-        <a href="#">개인정보처리방침</a> | 
-        <a href="#">이용약관</a>
-      </p>
-    </footer>
-  </div>
+  <nav class="nav-present">
+    <ul>
+      <li><a href="#">홈</a></li>
+      <li><a href="#">노래방 추천</a></li>
+      <li><a href="#">정보</a></li>
+    </ul>
+  </nav>
+  <header class="r-wrap-0at">
+    <h1 class="q-hero-hrgj">상수 노래방 추천 가이드</h1>
+    <p class="q-hero-hrgj-double">상수 지역 노래방을 선택하는 핵심 기준과 각 업소의 특징을 비교 분석하는 가이드</p>
+  </header>
+  <main>
+    <section class="k-ico-09g1">
+      <h2>상수 노래방 추천 가이드</h2>
+      <p>상수 지역 노래방을 선택하는 핵심 기준과 각 업소의 특징을 비교 분석하는 가이드입니다.</p>
+      <ul>
+        <li>주변 접근성</li>
+        <li>음향 상태</li>
+        <li>가격대</li>
+      </ul>
+    </section>
+    <section>
+      <h2>상수 노래방 선택 기준</h2>
+      <p>상수 지역 노래방을 선택할 때 고려해야 할 주요 요소입니다.</p>
+      <ul>
+        <li>위치</li>
+        <li>음향 장비</li>
+        <li>가격</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 상수 노래방 추천 가이드</p>
+  </footer>
 </body>
 </html>
